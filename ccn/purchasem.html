@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="w3-top">
+        <ul class="w3-navbar w3-theme w3-top w3-left-align w3-large">
+            <li class=""><a href="home.html" class="w3-hover-white">Home</a></li>
+            <li class=""><a href="funds.html" class="w3-hover-white">Add Funds</a></li>
+            <li><a href="#" class="w3-theme-l1">Purchase</a></li>
+            <li style="position:fixed; right:0;">Balance: <span id="coins">0</span> MasterCoins</li>
+        </ul>
+    </div>
+    <nav class="w3-sidenav w3-collapse w3-theme-l5 w3-animate-left" style="z-index:3;width:250px;margin-top:51px;" id="mySidenav">
+        <h4><b>Brands</b></h4>
+        <a href="purchasev.html" class="w3-hover-black"><img src="i/v.png" /></a>
+        <a href="#" class="w3-hover-black"><img src="i/m.png" /></a>
+    </nav>
+    <div class="w3-main" style="margin-left:250px">
+        <div class="w3-row w3-padding-64">
+            <div class="w3-twothird w3-container">
+                <h1 class="w3-text-teal"><img src="i/m.png" /></h1>
+                <h4>Bank Name:</h4>
+                <select class="w3-select">
+                    <option>TD Canada Trust</option>
+                    <option>Royal Bank of Canada (RBC)</option>
+                    <option>Desjardins</option>
+                    <option>CIBC</option>
+                    <option>Bank of America</option>
+                    <option>Capital One</option>
+                    <option>HSBC Bank USA</option>
+                </select>
+                <h4>Please select how many cards you would like (Maximum 10): </h4>
+                <select class="w3-select">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+                <br />
+                <br />
+                <form action="confirm.html">
+                    <button type="submit">Purchase</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
